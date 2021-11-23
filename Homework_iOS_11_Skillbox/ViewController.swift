@@ -11,9 +11,20 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        testView()
+        pressed()
     }
-
-
+   
+}
+extension ViewController: SegmentViewControllerDelegate {
+    func pressed() {
+        print("Delegate segment control")
+    }
+    
 }
 
+extension ViewController: TestViewDelegate {
+    func testView() {
+        print("Delegate button")
+    }
+}
