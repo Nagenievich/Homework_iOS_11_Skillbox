@@ -14,6 +14,9 @@
 		914036BD26C03EA4000182D1 /* Homework_iOS_11_Skillbox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 914036BB26C03EA4000182D1 /* Homework_iOS_11_Skillbox.xcdatamodeld */; };
 		914036BF26C03EB3000182D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914036BE26C03EB3000182D1 /* Assets.xcassets */; };
 		914036C226C03EB3000182D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914036C026C03EB3000182D1 /* LaunchScreen.storyboard */; };
+		915C3E9327344684008F888D /* ButtonAnalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915C3E9227344684008F888D /* ButtonAnalog.swift */; };
+		915C3E98273BE26D008F888D /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915C3E97273BE26C008F888D /* SegmentViewController.swift */; };
+		916910E526C59D24002DDC90 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916910E426C59D24002DDC90 /* ClockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		914036BE26C03EB3000182D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		914036C126C03EB3000182D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		914036C326C03EB3000182D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		915C3E9227344684008F888D /* ButtonAnalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnalog.swift; sourceTree = "<group>"; };
+		915C3E97273BE26C008F888D /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
+		916910E426C59D24002DDC90 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,13 @@
 		914036B126C03EA4000182D1 /* Homework_iOS_11_Skillbox */ = {
 			isa = PBXGroup;
 			children = (
+				915C3E97273BE26C008F888D /* SegmentViewController.swift */,
 				914036B226C03EA4000182D1 /* AppDelegate.swift */,
 				914036B426C03EA4000182D1 /* SceneDelegate.swift */,
 				914036B626C03EA4000182D1 /* ViewController.swift */,
 				914036B826C03EA4000182D1 /* Main.storyboard */,
+				916910E426C59D24002DDC90 /* ClockView.swift */,
+				915C3E9227344684008F888D /* ButtonAnalog.swift */,
 				914036BE26C03EB3000182D1 /* Assets.xcassets */,
 				914036C026C03EB3000182D1 /* LaunchScreen.storyboard */,
 				914036C326C03EB3000182D1 /* Info.plist */,
@@ -140,8 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				915C3E98273BE26D008F888D /* SegmentViewController.swift in Sources */,
 				914036B726C03EA4000182D1 /* ViewController.swift in Sources */,
+				916910E526C59D24002DDC90 /* ClockView.swift in Sources */,
 				914036B326C03EA4000182D1 /* AppDelegate.swift in Sources */,
+				915C3E9327344684008F888D /* ButtonAnalog.swift in Sources */,
 				914036B526C03EA4000182D1 /* SceneDelegate.swift in Sources */,
 				914036BD26C03EA4000182D1 /* Homework_iOS_11_Skillbox.xcdatamodeld in Sources */,
 			);
